@@ -1,0 +1,5 @@
+conda create -n pytorch
+conda activate pytorch
+conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install matplotlib
+pip install opencv-python
